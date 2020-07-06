@@ -1,0 +1,36 @@
+hr {color:sienna;}
+p {margin-left:20px;background-color:bisque;padding:18px;}
+body {background-image:url("nodding.gif");background-attachment: fixed;}
+p.penguin{background-image: url("penguin.gif"); background-repeat: no-repeat; background-position:22% 50%;}
+p.indent{text-indent:-5em;padding-left:6em;}
+p.text_align{text-align: center;}
+p.tight{word-spacing:-0.3em;}
+p.ltight{letter-spacing:-0.04em;}
+
+li {list-style: disc inside}
+
+
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+th{
+    height:50px;
+    background-color: lightblue;
+    color:black;
+}
+
+td{
+    height:40px;
+    vertical-align: bottom;
+    text-align: center;
+    padding:15px;
+    background-color: linen;
+}
+
+table,th,td{
+    border:1px solid blue;
+    outline:bisque dotted thick;
+}
+
