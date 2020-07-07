@@ -1,0 +1,13 @@
+
+.center{
+    margin:auto;
+    width:70%;
+    background-color: lavender;
+}
+
+.right{
+    position:absolute;
+    right:0px;
+    width:300px;
+    background-color: lavenderblush;
+}

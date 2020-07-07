@@ -34,3 +34,24 @@ table,th,td{
     outline:bisque dotted thick;
 }
 
+p.article:first-letter{
+    color:#FF0000;
+}
+
+h1:before{
+    content:url(penguin.gif);
+}
+
+h2:after{
+    content:url(penguin.gif);
+}
+
+h2{
+    text-align: center;
+}
+
+.center{
+    margin:auto;
+    width:70%;
+    background-color: lavender;
+}
